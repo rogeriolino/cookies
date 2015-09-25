@@ -4,7 +4,7 @@
  * Modifed by <rogeriolino.com>
  */
 var cookies = {
-    create: function(name, value, days) {
+    write: function(name, value, days) {
         var date, expires = '';
         if (days) {
             date = new Date();
